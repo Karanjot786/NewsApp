@@ -1,7 +1,7 @@
 import streamlit as st
 import json
 import requests
-from newspaper import Article
+from newspaper
 from transformers import pipeline
 st.set_page_config(page_title='Short News App', layout='wide', initial_sidebar_state = 'expanded')
 st.title('Welcome to Short News App n Tired of reading long articles? This app summarizes news articles for you and gives you short crispy to the point news based on your search n (This is a demo app and hence is deployed on a platform with limited computational resources. Hence the number of articles  this app can fetch is limited to 5)')
