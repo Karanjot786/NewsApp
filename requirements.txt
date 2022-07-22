@@ -49,7 +49,6 @@ entrypoints==0.3
 executing==0.8.3
 fasteners==0.14.1
 feedfinder2==0.0.4
-feedparser==5.2.1
 filelock==3.0.12
 Flask==2.1.1
 Flask-Cors==3.0.10
