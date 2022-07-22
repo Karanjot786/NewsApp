@@ -192,7 +192,6 @@ typer==0.4.1
 typing-extensions==4.1.1
 tzdata==2022.1
 tzlocal==4.2
-ubuntu-advantage-tools==27.7
 ubuntu-drivers-common==0.0.0
 ufw==0.36
 unattended-upgrades==0.1
