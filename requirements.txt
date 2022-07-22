@@ -33,7 +33,6 @@ colorama==0.4.3
 constantly==15.1.0
 cryptography==2.8
 cssselect==1.1.0
-cupshelpers==1.0
 cymem==2.0.6
 dateparser==0.7.6
 dbus-python==1.2.16
