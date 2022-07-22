@@ -192,7 +192,7 @@ typer==0.4.1
 typing-extensions==4.1.1
 tzdata==2022.1
 tzlocal==4.2
-ufw==0.36
+
 unattended-upgrades==0.1
 urllib3==1.26.9
 usb-creator==0.3.7
