@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+    Sources
+{% endblock %}
+
+
+{% block content %}
+
+<div class="jumbotron">
+
+    <center>
+        <h1>Balanced News</h1>
+    </center>
+    <br>
+    <center>
+        <h4>The News Sources We Use</h4>
+    </center>
+
+</div>
+
+    {% for src_group in img_srcs %}
+
+        <div class="card-deck">
+
+            {% for src in src_group %}
+
+                <div class="card">
+                    <a href="{{src.0}}" target="_blank"><img class="card-img" src="{% static src.1 %}" alt="news source"></a>
+                </div>
+
+            {% endfor %}
+
+        </div>
+
+    {% endfor %}
+
+{% endblock %}

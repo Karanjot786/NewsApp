@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+    About
+{% endblock %}
+
+
+{% block content %}
+
+
+<div class="jumbotron">
+    <center>
+        <h1>About Balanced News</h1>
+    </center>
+</div>
+
+<div class="about-container">
+    <center>
+        <img id="about-logo" src="{% static 'media/logo.png' %}" class="rounded float-right" alt="Balanced News Logo"/>
+        <h4>
+            The ever more polarizing political climate of the United States (and by extension, the world as a whole) 
+            makes it extremely difficult for today's generation of citizens to find unbiased sources of news. Moreover, in their 
+            quest to maximize revenue, tech-based news services (including Google, Facebook, YouTube, and others) tend to personalize 
+            content recommendations for their users, causing even the most open-minded to get stuck in the trap of being exposed to 
+            only one side of a story.
+        </h4>
+        <br>
+        <h4>
+            Enter <i>Balanced News™</i>. <i>Balanced News™</i> was founded in 2020 with the aim of solving the problem of 
+            echo chambers by presenting users with news from both sides of the political spectrum in a single, well-organized space.
+            Articles drawn from multiple sources, representing both liberal and conservative opinions, and covering a variety of hot 
+            topics are presented as equals on the News page in form of clickable cards.
+        </h4>
+        <br>
+        <h4>
+            The News site takes about 10-15 seconds to load. Not enough time to read an article? No worries! Hovering over a card 
+            will reveal a summary of the story condensed into a few short sentences*.
+        </h4>
+        <br>
+        <h4>
+            Happy Reading!
+        </h4>
+    </center>
+</div>
+
+<br><br><br><br><br><br>
+<div class="footnote">
+    <center>
+        *Note: this feature is coming soon...
+    </center>
+</div>
+
+{% endblock %}
